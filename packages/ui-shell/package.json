@@ -1,0 +1,10 @@
+{
+  "name": "@oenexa/ui-shell",
+  "version": "1.0.0",
+  "description": "Unified OENEXA Portal Shell Primitives and Navigation Metadata",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@oenexa/api-contracts",
+  "version": "1.0.0",
+  "description": "Enterprise RFC 7807 Problem Details, response envelopes, and header standards for OENEXA APIs",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "test": "vitest run"
+  }
+}

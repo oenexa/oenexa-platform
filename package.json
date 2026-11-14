@@ -1,0 +1,18 @@
+{
+  "name": "oenexa-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OENEXA Platform — Shared Foundation: Design Tokens, UI Shell Primitives, Auth SDK, Event Schemas, and API Contracts",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}

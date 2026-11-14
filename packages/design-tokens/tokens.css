@@ -1,0 +1,54 @@
+/**
+ * OENEXA Unified Design Tokens — Core Color Palette & Typography
+ * Authoritative CSS variables for app.oenexa.com and all ecosystem products.
+ */
+:root {
+  /* Surface & Canvas Colors */
+  --ox-bg-canvas: #0b0e14;
+  --ox-bg-surface: #151922;
+  --ox-bg-elevated: #1f2533;
+  --ox-bg-hover: #2a3345;
+  --ox-border-subtle: #232b3b;
+  --ox-border-strong: #3b465c;
+
+  /* Typography Colors */
+  --ox-text-primary: #f0f3f6;
+  --ox-text-secondary: #8c9ba8;
+  --ox-text-muted: #5a6878;
+
+  /* Brand Accents */
+  --ox-accent-primary: #f0b90b;       /* Institutional Yellow */
+  --ox-accent-cyan: #00e5ff;          /* Quantum L1 Cyan */
+  --ox-accent-positive: #10b981;      /* Trade Green */
+  --ox-accent-warning: #f59e0b;       /* Warning Amber */
+  --ox-accent-danger: #ef4444;        /* Trade Red */
+
+  /* Typography Fonts */
+  --ox-font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --ox-font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Elevation Shadows */
+  --ox-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+  --ox-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --ox-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.6), 0 4px 6px -2px rgba(0, 0, 0, 0.4);
+}
+
+/* Light Theme Variables */
+html.light,
+body.light,
+[data-theme='light'] {
+  --ox-bg-canvas: #f4f6fa;
+  --ox-bg-surface: #ffffff;
+  --ox-bg-elevated: #eaedf2;
+  --ox-bg-hover: #dfe4ec;
+  --ox-border-subtle: #dbe0e8;
+  --ox-border-strong: #bac4d2;
+
+  --ox-text-primary: #0f1419;
+  --ox-text-secondary: #4b5866;
+  --ox-text-muted: #788696;
+
+  --ox-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --ox-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --ox-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
