@@ -1,7 +1,7 @@
 {
   "name": "@oenexa/ecosystem-integration",
   "version": "1.0.0",
-  "description": "OENEXA End-to-End Multi-Domain Microservice Integration Suite",
+  "description": "OENEXA Platform Foundation Schemas & Contracts Compatibility Suite",
   "main": "src/index.ts",
   "scripts": {
     "test": "vitest run",
@@ -11,20 +11,7 @@
   "dependencies": {
     "@oenexa/api-contracts": "*",
     "@oenexa/event-schemas": "*",
-    "@oenexa/auth-sdk": "*",
-    "@oenexa/identity": "file:../../../oenexa-identity",
-    "@oenexa/wallet": "file:../../../oenexa-wallet",
-    "@oenexa/pay": "file:../../../oenexa-pay",
-    "@oenexa/exchange": "file:../../../oenexa-exchange",
-    "@oenexa/market-data": "file:../../../oenexa-market-data",
-    "@oenexa/liquidity": "file:../../../oenexa-liquidity",
-    "@oenexa/validator": "file:../../../oenexa-validator",
-    "@oenexa/rag": "file:../../../oenexa-rag",
-    "@oenexa/agents": "file:../../../oenexa-agents",
-    "@oengo/customer": "file:../../../oengo-customer",
-    "@oengo/merchant": "file:../../../oengo-merchant",
-    "@oengo/driver": "file:../../../oengo-driver",
-    "@oengo/admin": "file:../../../oengo-admin"
+    "@oenexa/auth-sdk": "*"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
